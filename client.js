@@ -8,6 +8,8 @@ const connect = function() {
 
   conn.on('connect', () => {
     conn.write('Name: GJM');
+    //conn.write('Move: right');
+
   });
 
   conn.on('data', (data) => {
